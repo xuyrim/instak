@@ -67,12 +67,12 @@ def cheker_insta():
         re =requests.post(url,headers=head,data=datt).text
         if '"user":true' in re:
             print("")
-            print(u+ " >= \033[1;32mEMIL TRUE\033[1;37m ")
+            print(u+ " >= \033[1;32mHacked 🙃\033[1;37m ")
             four.write(u+"\n")
 
         else:
             print("")
-            print(u+ ' >= \033[1;31mNOT TRUE\033[1;37m')
+            print(u+ ' >= \033[1;31mHack Nabet 😡\033[1;37m')
 
 
 def emil():
