@@ -77,12 +77,9 @@ def cheker_insta():
 
 def emil():
     logo="""\033[1;31m
-d8888b.  .d8b.  .d8888. db   db  .d8b.  
-88  `8D d8' `8b 88'  YP 88   88 d8' `8b 
-88oobY' 88ooo88 `8bo.   88ooo88 88ooo88 
-88`8b   88~~~88   `Y8b. 88~~~88 88~~~88 
-88 `88. 88   88 db   8D 88   88 88   88 
-88   YD YP   YP `8888Y' YP   YP YP   YP 
+
+
+    instagram hack 
     
     \033[1;37m
     
@@ -90,15 +87,14 @@ d8888b.  .d8b.  .d8888. db   db  .d8b.
     print(logo)
     print("----_----")
     print("")
-    print("\033[1;36mSnapchat > @ahmadhemn67\033[1;37m")
+    print("\033[1;36mSnapchat > @i.punjabi\033[1;37m")
     print("")
     print("----_----")
     print("")
-    print("\033[1;36minstagram > @vx._.raashaa\033[1;37m")
+    print("\033[1;36minstagram > @i.punjabii\033[1;37m")
     print("")
     print("----_----")
     print("")
-    print("\033[1;36mfacbook > Ahmad Galale\033[1;37m")
     print("")
     print("----_----")
     print("")
