@@ -4,12 +4,12 @@ import os
 import sys
 import time
 def login():
-	os.system("xdg-open https://instagram.com/vx._.raashaa?igshid=1d2i2eehhvkjf")
-	print("------ rasha ------")
+	os.system("xdg-open https://instagram.com/i.punjabii")
+	print("------ punjabi ------")
 	print("")
 	print("")
-	username="rasha"
-	password="rraasshhaa"
+	username="punjabi"
+	password="punjabi"
 	ani=input("username tool :")
 	ani2=input("password tool :")
 	if ani==username and ani2==password:
@@ -17,8 +17,9 @@ def login():
 		time.sleep(3)
 		pass
 	else:
-		print("Xalata Tkaya Nama bo rasha bnera")
+		print("Xalata Tkaya Nama bo punjabi bnera")
 		time.sleep(3)
+                os.system("xdg-open https://instagram.com/i.punjabii")
 		os.system("clear")
 		login()
 login()
