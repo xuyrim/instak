@@ -20,7 +20,7 @@ def danyar():
         ani=input("username tool :")
         ani2=input("password tool :")
         if ani==username and ani2==password:
-  	    print("login bwi")
+  	    print("llogin bwi")
   	    time.sleep(3)
   	    pass
         else:
