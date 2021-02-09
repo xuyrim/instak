@@ -23,7 +23,7 @@ def danyar():
   	        print("login bwi")
   	        time.sleep(3)
   	        pass
-  	else:
+        else:
   	        print("Xalata Tkaya Nama bo punjabi bnera")
                 time.sleep(3)
   	         os.system("clear")
