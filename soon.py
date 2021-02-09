@@ -11,10 +11,10 @@ def danyar():
   import sys
   import time
   def login():
-  	os.system("xdg-open https://instagram.com/i.punjabii")
-  	print("------ punjabi ------")
-   	print("")
-        print("")
+        os.system("xdg-open https://instagram.com/i.punjabii")
+        print("------ punjabi ------")
+        print(" ")
+        print(" ")
         username="punjabi"
         password="punjabi"
         ani=input("username tool :")
