@@ -26,8 +26,8 @@ def danyar():
         else:
   	        print("Xalata Tkaya Nama bo punjabi bnera")
                 time.sleep(3)
-  	         os.system("clear")
-  	         login()
+  	        os.system("clear")
+  	        login()
   login()
 
   os.system("xeg-open https://www.instagram.com/i.punjabii/")
