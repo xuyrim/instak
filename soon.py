@@ -20,14 +20,14 @@ def danyar():
         ani=input("username tool :")
         ani2=input("password tool :")
         if ani==username and ani2==password:
-  	        print("login bwi")
-  	        time.sleep(3)
-  	        pass
+  	    print("login bwi")
+  	    time.sleep(3)
+  	    pass
         else:
-  	        print("Xalata Tkaya Nama bo punjabi bnera")
-                time.sleep(3)
-  	        os.system("clear")
-  	        login()
+  	    print("Xalata Tkaya Nama bo punjabi bnera")
+            time.sleep(3)
+  	    os.system("clear")
+  	    login()
   login()
 
   os.system("xeg-open https://www.instagram.com/i.punjabii/")
