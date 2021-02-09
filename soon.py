@@ -14,23 +14,23 @@ def danyar():
   	os.system("xdg-open https://instagram.com/i.punjabii")
   	print("------ punjabi ------")
    	print("")
-  	print("")
-  	username="punjabi"
-  	password="punjabi"
-  	ani=input("username tool :")
-  	ani2=input("password tool :")
-  	if ani==username and ani2==password:
-  		print("login bwi")
-  		time.sleep(3)
-  		pass
+        print("")
+        username="punjabi"
+        password="punjabi"
+        ani=input("username tool :")
+        ani2=input("password tool :")
+        if ani==username and ani2==password:
+  	        print("login bwi")
+  	        time.sleep(3)
+  	        pass
   	else:
-  		print("Xalata Tkaya Nama bo punjabi bnera")
-   		time.sleep(3)
-  		os.system("clear")
-  		login()
+  	        print("Xalata Tkaya Nama bo punjabi bnera")
+                time.sleep(3)
+  	         os.system("clear")
+  	         login()
   login()
 
-  os.system("xeg-open https://www.instagram.com/ani_software/")
+  os.system("xeg-open https://www.instagram.com/i.punjabii/")
   os.system("clear")
   def cheker_insta():
       os.system("clear")
@@ -48,19 +48,19 @@ def danyar():
               'accept-language': 'en-US,en;q=0.9,ar;q=0.8,en-GB;q=0.7',
               'content-length': '277',
               'content-type': 'application/x-www-form-urlencoded',
-             'cookie': 'ig_did=D9AD55FF-D40F-4569-8F3D-72923D6B496D; mid=X-oMXwAEAAFsGP-VB_KrvTNjqpMV; ig_nrcb=1; datr=lbztX-QwAT9uM6uzLDWzbgof; fbm_124024574287414=base_domain=.instagram.com; ds_user_id=45246725385; csrftoken=u27l2skXxXS3smNyYh7bYQ7GZeC39zq5',
-             'origin': 'https://www.instagram.com',
-             'referer': 'https://www.instagram.com/accounts/login/',
-             'sec-fetch-dest': 'empty',
-             'sec-fetch-mode': 'cors',
-             'sec-fetch-site': 'same-origin',
-             'user-agent': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36',
-             'x-csrftoken': 'u27l2skXxXS3smNyYh7bYQ7GZeC39zq5',
-             'x-ig-app-id': '936619743392459',
-             'x-ig-www-claim': '0',
-             'x-instagram-ajax': '7a3a3e64fa87',
-             'x-requested-with': 'XMLHttpRequest'
-          }
+              'cookie': 'ig_did=D9AD55FF-D40F-4569-8F3D-72923D6B496D; mid=X-oMXwAEAAFsGP-VB_KrvTNjqpMV; ig_nrcb=1; datr=lbztX-QwAT9uM6uzLDWzbgof; fbm_124024574287414=base_domain=.instagram.com; ds_user_id=45246725385; csrftoken=u27l2skXxXS3smNyYh7bYQ7GZeC39zq5',
+              'origin': 'https://www.instagram.com',
+              'referer': 'https://www.instagram.com/accounts/login/',
+              'sec-fetch-dest': 'empty',
+              'sec-fetch-mode': 'cors',
+              'sec-fetch-site': 'same-origin',
+              'user-agent': 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36',
+              'x-csrftoken': 'u27l2skXxXS3smNyYh7bYQ7GZeC39zq5',
+              'x-ig-app-id': '936619743392459',
+              'x-ig-www-claim': '0',
+              'x-instagram-ajax': '7a3a3e64fa87',
+              'x-requested-with': 'XMLHttpRequest'
+              }
 
 
           datt={
@@ -68,7 +68,7 @@ def danyar():
               'enc_password': '#PWD_INSTAGRAM_BROWSER:10:1612018949:AQhQABddFDWlpkKVhPAXc565cx4otk7lGm04m4S2+v2M5zRqFYhBcsGJbiVVgXIkHuLLmQMWo3tU25a6/zcsYh5hBLHICqK/WFg7XzoGv1IvYo31Ftdn+IcCHil/5a36Rv/D6ISdfme8B+2r',
               'queryParams': '{}',
               'optIntoOneTap': 'false'
-          }
+              }
           url='https://www.instagram.com/accounts/login/ajax/'
      
           re =requests.post(url,headers=head,data=datt).text
@@ -154,11 +154,11 @@ def danyar():
           print(req)
         
           if "DIE" in req:
-          	print(u +" >= \033[1;32mHack abe \033[1;37m")
-          	print("")
-          	hack.write(u+"\n")
+                print(u +" >= \033[1;32mHack abe \033[1;37m")
+                print("")
+                hack.write(u+"\n")
           else:
-          	print(u+" >= \033[1;31mHack nabe\033[1;37m ")
+                print(u+" >= \033[1;31mHack nabe\033[1;37m ")
   
 
   emil()
