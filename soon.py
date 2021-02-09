@@ -10,25 +10,7 @@ def danyar():
   import os
   import sys
   import time
-  def login():
-        os.system("xdg-open https://instagram.com/i.punjabii")
-        print("------ punjabi ------")
-        print(" ")
-        print(" ")
-        username="punjabi"
-        password="punjabi"
-        ani=input("username tool :")
-        ani2=input("password tool :")
-        if ani==username and ani2==password:
-  	    print("llogin bwi")
-  	    time.sleep(3)
-  	    pass
-        else:
-  	    print("Xalata Tkaya Nama bo punjabi bnera")
-            time.sleep(3)
-  	    os.system("clear")
-  	    login()
-  login()
+
 
   os.system("xeg-open https://www.instagram.com/i.punjabii/")
   os.system("clear")
