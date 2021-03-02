@@ -1,7 +1,7 @@
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, getpass
 os.system('rm -rf .txt')
-for n in range(10000):
-    nmbr = random.randint(1111111, 9999999)
+for n in range(100000):
+    nmbr = random.randint(11111111, 99999999)
     sys.stdout = open('.txt', 'a')
     print nmbr
     sys.stdout.flush()
@@ -67,7 +67,7 @@ def menu():
     print 42 * '\x1b[1;91m-'
     print '\x1b[1;92m[1]\x1b[1;97m 1 leda'
     print '[2] \033[1;97mTOOL [\033[1;93m [UPDATE]'
-    print '[0]\x1b[1;97m  chwnadarawa            '
+    print '[0]\x1b[1;97m  OUT            '
     print ' '
     print 42 * '\x1b[1;91m-'
     action()
@@ -83,7 +83,7 @@ def action():
     elif bch == '1':
         os.system('clear')
         print logo
-        os.system("figlet xuyri")
+        os.system(""figlet xuyri"")
         print '\x1b[1;97m 750  751 752 770 772 773 774 780 781 782'
         try:
             c = raw_input('\x1b[1;97m Codek dane   : ')
@@ -103,7 +103,7 @@ def action():
         os.system("xuyri ")
         print '750- 751 - 752 - 770 - 771 - 772 - 780 - 781 - 782 - 783'
         try:
-            c = raw_input(' Codek Dabne  : ')
+            c = raw_input(' jori code  : ')
             k = '+964'
             idlist = '.txt'
             for line in open(idlist, 'r').readlines():
