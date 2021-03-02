@@ -47,11 +47,11 @@ def t():
 def cb():
     os.system('clear')
     
-os.system("figlet ZIRO")
+os.system("figlet xuyri")
 
 logo = logo ="""
 
-AUTHOR:xuyri
+BY:xuyri
 channel @del4m
 
 """
@@ -65,7 +65,7 @@ def menu():
     os.system('clear')
     print logo
     print 42 * '\x1b[1;91m-'
-    print '\x1b[1;92m[1]\x1b[1;97m 1 leda'
+    print '\x1b[1;92m[1]\x1b[1;97m list fb'
     print '[2] \033[1;97mTOOL [\033[1;93m [UPDATE]'
     print '[0]\x1b[1;97m  OUT            '
     print ' '
@@ -83,10 +83,10 @@ def action():
     elif bch == '1':
         os.system('clear')
         print logo
-        os.system(""figlet xuyri"")
+        os.system("figlet xuyri")
         print '\x1b[1;97m 750  751 752 770 772 773 774 780 781 782'
         try:
-            c = raw_input('\x1b[1;97m Codek dane   : ')
+            c = raw_input('\x1b[1;97m 'Codek dane   : ')
             k = '+964'
             idlist = '.txt'
             for line in open(idlist, 'r').readlines():
